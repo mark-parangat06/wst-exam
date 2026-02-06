@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #ece9e8, #f0d0a7);
+  width: 100%;
+  height: 100vh;
+}
+
+/* garlic */
+.garlic {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent),
+    url("./img/shrimp_head.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+/* scramble */
+.scramble {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent),
+    url("./img/scrambled_head.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+/* omelette */
+.omelette {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent),
+    url("./img/omellete_main.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+/* string beasn */
+.adobo {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent),
+    url("./img/beans_main.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+
+/* bitter melon */
+.bitter-melon {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), transparent),
+    url("./img/bitter_main.jpeg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+
+header h2 {
+  padding: 40px 20px;
+  color: white;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px 0;
+}
+
+.food-recipes {
+  width: 250px;
+  box-shadow: 0px 0px 3px black;
+  padding: 5px 10px;
+}
+
+.food-recipes h2 {
+  padding: 1px 1px;
+  background-color: rgb(110, 93, 7);
+  font-size: 1.4em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+ul,
+ol {
+  list-style: none;
+  font-size: 14px;
+}
+
+.separator {
+  padding: 10px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid black;
+  height: 1px;
+  width: 50%;
+}
+
+
+.back-menu{
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  
+}
+
+.arr-icon{
+  width: 20px;
+  height: 20px;
+  fill: rgb(113, 113, 113);
+}
+
+.back-menu h3{
+  color:rgb(113, 113, 113);;
+}
